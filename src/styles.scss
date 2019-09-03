@@ -1,4 +1,16 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";  
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+body, html {
+    height: 100%;
+    margin: 10 auto;
+}
+
+body {
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
 
 // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
