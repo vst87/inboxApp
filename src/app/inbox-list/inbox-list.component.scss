@@ -1,0 +1,36 @@
+.divTableCell, .divTableHead {
+    text-align: left;
+}
+.divTableHead{
+    background-color: #F0F0F0;
+    font-weight: bold;
+}
+.row{
+    border-bottom: 2px solid #F0F0F0; 
+    cursor: pointer;
+}
+.avatar{
+    border-radius: 50%;
+}
+.chevronright{
+    text-align: end;
+}
+
+div{
+    padding: 6px;
+}
+.inbox-list{
+    padding: 60px;
+}
+
+.btn-compose, .btn-back{
+    width: 180px;
+    height: 40px;
+    border: none;
+}
+
+@media (max-width: 320px) { 
+    .divTableCell {
+        width: 100%;
+    }
+}
